@@ -1,0 +1,133 @@
+$date
+	Tue Dec 13 16:21:39 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var reg 1 ! clk $end
+$var reg 4 " req_floor [3:0] $end
+$scope module elevatorcontroller $end
+$var wire 1 ! clk $end
+$var wire 4 # req_floor [3:0] $end
+$var reg 4 $ curr_floor [3:0] $end
+$var reg 4 % down_floor [3:0] $end
+$var reg 3 & state [2:0] $end
+$var reg 4 ' target_floor [3:0] $end
+$var reg 4 ( up_floor [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b110 (
+b110 '
+b0 &
+b0 %
+b0 $
+b110 #
+b110 "
+0!
+$end
+#5
+b11 &
+1!
+#10
+0!
+#15
+b1 $
+1!
+#20
+0!
+b1 "
+b1 #
+#25
+1!
+#30
+0!
+b101 "
+b101 #
+#35
+b10 $
+1!
+#40
+0!
+b0 "
+b0 #
+#45
+b11 $
+1!
+#50
+0!
+#55
+b100 $
+1!
+#60
+0!
+#65
+b101 $
+1!
+#70
+0!
+#75
+1!
+#80
+0!
+#85
+b110 $
+1!
+#90
+0!
+#95
+1!
+#100
+0!
+#105
+b101 $
+b1 &
+b0 (
+b0 '
+1!
+#110
+0!
+#115
+b100 $
+1!
+#120
+0!
+#125
+b11 $
+1!
+#130
+0!
+#135
+b10 $
+1!
+#140
+0!
+#145
+b1 $
+1!
+#150
+0!
+#155
+b0 $
+1!
+#160
+0!
+#165
+b0 &
+1!
+#170
+0!
+#175
+1!
+#180
+0!
+#185
+1!
+#190
+0!
